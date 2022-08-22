@@ -1,4 +1,4 @@
-#header-site{
+#cabecalho{
     background-image: linear-gradient(to right, rgb(194, 185, 185), rgb(128, 128, 180));
     position: fixed;
     z-index: 9999;
@@ -7,13 +7,13 @@
     top: 0;
 }
 
-#header-site img{
+#cabecalho img{
     width: 60px;
     margin: 10px;
     margin-left: 30px;
 }
 
-#header-site button{
+#cabecalho button{
     background-color: blueviolet;
     color: white;
     float: right;
@@ -23,7 +23,7 @@
     box-shadow: 1px 1px 2px black;
 }
 
-#header-site button:hover{
+#cabecalho button:hover{
     border: 1px solid white;
     transform: translate(-1px, -1px);
     box-shadow: 2px 2px 4px black;
@@ -33,7 +33,7 @@
 
 #inicio{
     background-image: url(../imagens/image-home-page.jpg);
-    height: 610px;
+    height: 605px;
 }
 
 #inicio p{
@@ -46,7 +46,7 @@
 
 #sobre{
     background-image: url(../imagens/image-sobre.jpg);
-    height: 610px;
+    height: 605px;
 }
 
 #sobre p{
@@ -59,7 +59,7 @@
 
 #servicos{
     background-image: url(../imagens/image-servicos.jpg);
-    height: 610px;
+    height: 605px;
 }
 
 #servicos p{
@@ -81,14 +81,28 @@
     margin-top: 0%;
 }
 
-#footer-site{
+#rodape{
     background-image: linear-gradient(to right, rgb(194, 185, 185), rgb(128, 128, 180));
     position: absolute;
     left: 0%;
     right: 0%;
 }
 
-#footer-site button{
+#rodape img{
+    width: 35px;
+    border-radius: 50%;
+}
+
+#rodape p.p1{
+    text-align: left;
+    margin-left: 30px;
+}
+
+#rodape p.p2{
+    text-align: center;
+}
+
+#rodape button{
     background-color: blueviolet;
     float: right;
     margin: 10px;
@@ -97,24 +111,10 @@
     box-sizing: border-box;
 }
 
-#footer-site button:hover{
+#rodape button:hover{
     border: 1px solid white;
     transform: translate(-1px, -1px);
     box-shadow: 2px 2px 4px black;
     transition: transform, 0.2s border 0.01s;
     box-sizing: border-box;
-}
-
-#footer-site img{
-    width: 35px;
-    border-radius: 50%;
-}
-
-#footer-site p.p1{
-    text-align: left;
-    margin-left: 30px;
-}
-
-#footer-site p.p2{
-    text-align: center;
 }
