@@ -1,0 +1,60 @@
+#header-site{
+    background-color: rgb(128, 128, 180);
+    height: 80px;
+    width: 100%;
+}
+
+#header-site img{
+    width: 60px;
+    margin: 10px;
+    margin-left: 30px;
+}
+
+#header-site button{
+    float: right;
+    margin: 10px;
+    margin-top: 28px;
+    border-radius: 20%;
+}
+
+#content-site{
+    background-image: url(../imagens/image-home-page.jpg);
+    height: 350px;
+    width: 100%;
+    margin-top: 15px;
+}
+
+#content-site p{
+    width: 200px;
+    float: right;
+    color: white;
+    margin-top: 110px;
+    margin-right: 100px;
+}
+
+#footer-site{
+    background-color: rgb(128, 128, 180);
+    height: 140px;
+    width: 100%;
+}
+
+#footer-site button{
+    float: right;
+    margin: 10px;
+    margin-top: 35px;
+    border-radius: 50%;
+}
+
+#footer-site img{
+    width: 50px;
+    border-radius: 50%;
+}
+
+#footer-site p.p1{
+    text-align: left;
+    margin-left: 30px;
+}
+
+#footer-site p.p2{
+    text-align: center;
+}
