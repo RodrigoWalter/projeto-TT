@@ -20,20 +20,22 @@
     float: right;
     margin: 10px;
     margin-top: 28px;
+    border: 1px blueviolet;
     border-radius: 10px;
     box-shadow: 1px 1px 2px black;
 }
 
 #cabecalho button:hover{
-    border: 1px solid white;
+    border: 1px blueviolet;
     transform: translate(-1px, -1px);
     box-shadow: 2px 2px 4px black;
-    transition: transform, 0.2s border 0.01s;
+    transition: transform, 0.2s;
     box-sizing: border-box;
 }
 
 #inicio{
     background-image: url(../imagens/image-home-page.jpg);
+    position: relative;
     height: 605px;
 }
 
@@ -72,14 +74,62 @@
 }
 
 #contato{
-    background-image: linear-gradient(to right, rgb(194, 185, 185), rgb(128, 128, 180));
-    height: 200px;
+    background-image: linear-gradient(to right, rgb(194, 185, 185), rgb(128, 128, 180)); 
+    height: auto;
 }
 
-#contato p{
+#contato h1{
     text-align: center;
-    color:black;
     margin-top: 0%;
+}
+
+#contato form{
+    margin: auto;
+    height: auto;
+    width: 400px;
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+#contato form div + div{
+    margin-top: 20px;
+}
+
+#contato label{
+    display: inline-block;
+    width: 90px;
+}
+
+#contato input, textarea{
+    font: 15px sans-serif;
+    width: 300px;
+    box-sizing: border-box;
+    border: 1px solid #000;
+}
+
+#contato textarea{
+    vertical-align: top;
+    height: 5em;
+}
+
+#contato button{
+    margin-left: 7em;
+    background-color: blueviolet;
+    color: white;
+    border: blueviolet;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 2px black;
+}
+
+#contato button:hover{
+    border: blueviolet;
+    transform: translate(-1px, -1px);
+    border-radius: 10px;
+    box-sizing: border-box;
+    transition: transform, 0.2s;
+    box-shadow: 2px 2px 4px black;
 }
 
 #rodape{
@@ -108,14 +158,16 @@
     float: right;
     margin: 10px;
     margin-top: 35px;
+    border: 1px blueviolet;
     border-radius: 50%;
     box-sizing: border-box;
+    box-shadow: 1px 1px 2px black;
 }
 
 #rodape button:hover{
-    border: 1px solid white;
+    border: 1px blueviolet;
     transform: translate(-1px, -1px);
     box-shadow: 2px 2px 4px black;
-    transition: transform, 0.2s border 0.01s;
+    transition: transform, 0.2s;
     box-sizing: border-box;
 }
