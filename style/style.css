@@ -1,7 +1,10 @@
 #header-site{
-    background-color: rgb(128, 128, 180);
-    height: 80px;
-    width: 100%;
+    background-image: linear-gradient(to right, rgb(194, 185, 185), rgb(128, 128, 180));
+    position: fixed;
+    z-index: 9999;
+    left: 0%;
+    right: 0%;
+    top: 0;
 }
 
 #header-site img{
@@ -11,42 +14,99 @@
 }
 
 #header-site button{
+    background-color: blueviolet;
+    color: white;
     float: right;
     margin: 10px;
     margin-top: 28px;
-    border-radius: 20%;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px black;
 }
 
-#content-site{
+#header-site button:hover{
+    border: 1px solid white;
+    transform: translate(-1px, -1px);
+    box-shadow: 2px 2px 4px black;
+    transition: transform, 0.2s border 0.01s;
+    box-sizing: border-box;
+}
+
+#inicio{
     background-image: url(../imagens/image-home-page.jpg);
-    height: 350px;
-    width: 100%;
-    margin-top: 15px;
+    height: 610px;
 }
 
-#content-site p{
+#inicio p{
     width: 200px;
     float: right;
     color: white;
-    margin-top: 110px;
+    margin-top: 210px;
     margin-right: 100px;
 }
 
+#sobre{
+    background-image: url(../imagens/image-sobre.jpg);
+    height: 610px;
+}
+
+#sobre p{
+    width: 200px;
+    float: left;
+    color: white;
+    margin-top: 210px;
+    margin-left: 100px;
+}
+
+#servicos{
+    background-image: url(../imagens/image-servicos.jpg);
+    height: 610px;
+}
+
+#servicos p{
+    width: 200px;
+    float: right;
+    color: white;
+    margin-top: 210px;
+    margin-right: 100px;
+}
+
+#contato{
+    background-image: linear-gradient(to right, rgb(194, 185, 185), rgb(128, 128, 180));
+    height: 200px;
+}
+
+#contato p{
+    text-align: center;
+    color:black;
+    margin-top: 0%;
+}
+
 #footer-site{
-    background-color: rgb(128, 128, 180);
-    height: 140px;
-    width: 100%;
+    background-image: linear-gradient(to right, rgb(194, 185, 185), rgb(128, 128, 180));
+    position: absolute;
+    left: 0%;
+    right: 0%;
 }
 
 #footer-site button{
+    background-color: blueviolet;
     float: right;
     margin: 10px;
     margin-top: 35px;
     border-radius: 50%;
+    box-sizing: border-box;
+}
+
+#footer-site button:hover{
+    border: 1px solid white;
+    transform: translate(-1px, -1px);
+    box-shadow: 2px 2px 4px black;
+    transition: transform, 0.2s border 0.01s;
+    box-sizing: border-box;
 }
 
 #footer-site img{
-    width: 50px;
+    width: 35px;
     border-radius: 50%;
 }
 
