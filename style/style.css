@@ -1,5 +1,5 @@
 #cabecalho{
-    background-image: linear-gradient(to right, rgb(194, 185, 185), rgb(128, 128, 180));
+    background-image: linear-gradient(to bottom, rgb(194, 185, 185), rgb(128, 128, 180));
     position: fixed;
     z-index: 9999;
     left: 0%;
@@ -10,23 +10,38 @@
 #cabecalho img{
     width: 60px;
     margin: 10px;
-    margin-left: 30px;
+    margin-left: 40px;
 }
 
-#cabecalho button{
-    font-size: medium;
-    background-color: blueviolet;
-    color: white;
+#cabecalho nav{
+    font-size: 13px;
+    list-style: none;
     float: right;
-    margin: 10px;
-    margin-top: 28px;
-    border: 1px blueviolet;
+    margin-top: 15px;
+    margin-right: 80px;
+}
+
+#cabecalho .menu{
     border-radius: 10px;
+}
+
+#cabecalho .menu li{
+    list-style-type: none;
+    position: relative;
+    float: right;
+    background-color: blueviolet;
     box-shadow: 1px 1px 2px black;
     cursor: pointer;
 }
 
-#cabecalho button:hover{
+#cabecalho .menu li a{
+    color: white;
+    text-decoration: none; 
+    padding: 5px 10px; 
+    display: block;
+}
+
+#cabecalho .menu li a:hover{
     border: 1px blueviolet;
     transform: translate(-1px, -1px);
     box-shadow: 2px 2px 4px black;
@@ -34,11 +49,16 @@
     box-sizing: border-box;
 }
 
+body{
+    overflow-x: hidden;
+}
+
 #inicio{
     background-image: url(../imagens/image-home-page.jpg);
     background-position: center;
-    position: relative;
-    height: 605px;
+    height: 500px;
+    margin-left: -8px;
+    margin-right: -8px;
 }
 
 #inicio:hover{
@@ -47,17 +67,19 @@
 }
 
 #inicio p{
-    width: 200px;
+    width: 250px;
     float: right;
     color: white;
-    margin-top: 210px;
+    margin-top: 180px;
     margin-right: 100px;
 }
 
 #sobre{
     background-image: url(../imagens/image-sobre.jpg);
     background-position: center;
-    height: 605px;
+    height: 500px;
+    margin-left: -8px;
+    margin-right: -8px;
 }
 
 #sobre:hover{
@@ -66,17 +88,19 @@
 }
 
 #sobre p{
-    width: 200px;
+    width: 250px;
     float: left;
     color: white;
-    margin-top: 210px;
+    margin-top: 150px;
     margin-left: 100px;
 }
 
 #servicos{
     background-image: url(../imagens/image-servicos.jpg);
     background-position: center;
-    height: 605px;
+    height: 500px;
+    margin-left: -8px;
+    margin-right: -8px;
 }
 
 #servicos:hover{
@@ -85,16 +109,18 @@
 }
 
 #servicos p{
-    width: 200px;
+    width: 250px;
     float: right;
     color: white;
-    margin-top: 210px;
+    margin-top: 150px;
     margin-right: 100px;
 }
 
 #contato{
     background-image: linear-gradient(to right, rgb(194, 185, 185), rgb(128, 128, 180)); 
     height: auto;
+    margin-left: -8px;
+    margin-right: -8px;
 }
 
 #contato h1{
@@ -173,22 +199,51 @@
     text-align: center;
 }
 
-#rodape button{
-    background-color: blueviolet;
+#rodape button.b1{
+    background-color: transparent;
     float: right;
     margin: 10px;
     margin-top: 35px;
-    border: 1px blueviolet;
+    margin-right: 75px;
+    border: 1px transparent;
     border-radius: 50%;
     box-sizing: border-box;
-    box-shadow: 1px 1px 2px black;
+    cursor: pointer;
+}
+
+#rodape button.b2{
+    background-color: transparent;
+    float: right;
+    margin: 10px;
+    margin-top: 35px;
+    border: 1px transparent;
+    border-radius: 50%;
+    box-sizing: border-box;
     cursor: pointer;
 }
 
 #rodape button:hover{
-    border: 1px blueviolet;
+    border: transparent;
     transform: translate(-1px, -1px);
-    box-shadow: 2px 2px 4px black;
-    transition: transform, 0.2s;
+    box-sizing: border-box;
+}
+
+#botao img{
+    width: 35px;
+}
+
+#botao button{
+    background-color: transparent;
+    position: fixed;
+    border: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+    bottom: 63px;
+    right: 9px;
+}
+
+#botao button:hover{
+    border: transparent;
+    transform: translate(-1px, -1px);
     box-sizing: border-box;
 }

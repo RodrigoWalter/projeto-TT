@@ -11,10 +11,14 @@
 <body>
     <div id="cabecalho">
         <img src="../imagens/logo.png" alt="Exemplo">
-        <a href="#contato"><button>CONTATO</button></a>
-        <a href="#servicos"><button>SERVIÇOS</button></a>
-        <a href="#sobre"><button>SOBRE</button></a>
-        <a href="#inicio"><button>INÍCIO</button></a>
+        <nav>
+            <ul class="menu">
+                <li><a href="#contato">CONTATO</a></li>
+                <li><a href="#servicos">SERVIÇOS</a></li>
+                <LI><a href="#sobre">SOBRE</a></LI>
+                <li><a href="#inicio">INÍCIO</a></li>
+            </ul>
+        </nav>
     </div>
     <div id="inicio">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet ut fugit error nulla voluptates temporibus quasi dolorem deserunt cum voluptate obcaecati, totam cupiditate ipsam explicabo numquam molestiae hic nostrum! Fugit!</p>
@@ -27,7 +31,7 @@
     </div>
     <div id="contato">
         <h1>Fale conosco</h1>
-        <form action="../formulário-contato/contato.html" method="post"> <!--Ainda falta fazer o backend do formulário de contatos-->
+        <form action="../html/contato.html" method="post"> <!--Ainda falta fazer o backend do formulário de contatos-->
             <div>
                 <label for="nome">Nome:</label>
                 <input type="texto" id="nome" name="nome_usuario">
@@ -46,11 +50,13 @@
         </form>
     </div>
     <div id="rodape">
-        <a href="https://www.facebook.com/" target="_blank" rel="external"><button><img src="../imagens/image-facebook.jpg" alt="Facebook"></button></a>
-        <a href="https://www.instagram.com/" target="_blank" rel="external"><button><img src="../imagens/image-instagram.png" alt="Instagram"></button></a>
-        <a href="https://www.whatsapp.com/?lang=pt_br" target="_blank" rel="external"><button><img src="../imagens/image-whatsapp.webp" alt="Whatsapp"></button></a>
+        <a href="https://www.facebook.com/" target="_blank" rel="external"><button class="b1"><img src="../imagens/image-facebook.jpg" alt="Facebook"></button></a>
+        <a href="https://www.instagram.com/" target="_blank" rel="external"><button class="b2"><img src="../imagens/image-instagram.png" alt="Instagram"></button></a>
         <p class="p1">Nome da empresa: Exemplo LTDA <br> Endereço: Rua dos Coqueiros, 234, Recife-PE <br> Telefones: (81) 99999-0000 <br> Email:exemplo@gmail.com</p>
         <p class="p2">Exemplo LTDA&reg;</p>
+    </div>
+    <div id="botao">
+        <a href="https://www.whatsapp.com/?lang=pt_br" target="_blank" rel="external"><button><img src="../imagens/image-whatsapp.webp" alt="Whatsapp"></button></a>
     </div>
 </body>
 </html>
