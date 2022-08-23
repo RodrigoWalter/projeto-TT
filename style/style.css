@@ -97,24 +97,81 @@ body{
 }
 
 #servicos{
-    background-image: url(../imagens/image-servicos.jpg);
+    margin: 0;
+    padding: 0;
     background-position: center;
     height: 500px;
     margin-left: -8px;
     margin-right: -8px;
 }
 
-#servicos:hover{
-    transform: scale(1.01);
-    transition: 0.2s;
+#servicos .menuservicos{
+    display: block;
+    height: 500px;
+    width: 100%;
+    margin: auto;
+    position: relative;
 }
 
-#servicos p{
+#servicos .menuservicos li{
+    list-style: none;
+    position: absolute;
+}
+
+#servicos .menuservicos img{
+    height: 500px;
+    width: 100%;
+    position: center;
+    margin-left: -40px;
+}
+
+#servicos .menuservicos p{
     width: 250px;
     float: right;
     color: white;
-    margin-top: 150px;
-    margin-right: 100px;
+    margin: 100px;
+}
+
+#servicos .menuservicos input{
+    display: none;
+}
+
+#servicos .menuservicos label{
+    background-color:white;
+    bottom: 100px;
+    cursor: pointer;
+    display: block;
+    height: 10px;
+    position: absolute;
+    width: 10px;
+    z-index: 10;
+}
+
+#servicos .menuservicos li:nth-child(1) label{
+    left: 10px;
+}
+
+#servicos .menuservicos li:nth-child(2) label{
+    left: 40px;
+}
+
+#servicos .menuservicos li:nth-child(3) label{
+    left: 70px;
+}
+
+#servicos .menuservicos li:nth-child(4) label{
+    left: 100px;
+}
+
+#servicos .menuservicos img{
+    opacity: 0;
+    visibility: hidden;
+}
+
+#servicos .menuservicos li input:checked ~ img{
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;
 }
 
 #contato{
