@@ -43,6 +43,7 @@
 
 #inicio:hover{
     transform: scale(1.01);
+    transition: 0.2s;
 }
 
 #inicio p{
@@ -61,6 +62,7 @@
 
 #sobre:hover{
     transform: scale(1.01);
+    transition: 0.2s;
 }
 
 #sobre p{
@@ -79,6 +81,7 @@
 
 #servicos:hover{
     transform: scale(1.01);
+    transition: 0.2s;
 }
 
 #servicos p{
