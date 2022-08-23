@@ -59,18 +59,19 @@ body{
     height: 500px;
     margin-left: -8px;
     margin-right: -8px;
+    color: transparent;
 }
 
 #inicio:hover{
-    transform: scale(1.01);
-    transition: 0.2s;
+    opacity: 0.8;
+    transition: 0.5s;
+    color: black;
 }
 
 #inicio p{
     width: 250px;
     float: right;
-    color: white;
-    margin-top: 180px;
+    margin-top: 150px;
     margin-right: 100px;
 }
 
