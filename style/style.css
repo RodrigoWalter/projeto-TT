@@ -23,6 +23,7 @@
     border: 1px blueviolet;
     border-radius: 10px;
     box-shadow: 1px 1px 2px black;
+    cursor: pointer;
 }
 
 #cabecalho button:hover{
@@ -35,8 +36,13 @@
 
 #inicio{
     background-image: url(../imagens/image-home-page.jpg);
+    background-position: center;
     position: relative;
     height: 605px;
+}
+
+#inicio:hover{
+    transform: scale(1.01);
 }
 
 #inicio p{
@@ -49,7 +55,12 @@
 
 #sobre{
     background-image: url(../imagens/image-sobre.jpg);
+    background-position: center;
     height: 605px;
+}
+
+#sobre:hover{
+    transform: scale(1.01);
 }
 
 #sobre p{
@@ -62,7 +73,12 @@
 
 #servicos{
     background-image: url(../imagens/image-servicos.jpg);
+    background-position: center;
     height: 605px;
+}
+
+#servicos:hover{
+    transform: scale(1.01);
 }
 
 #servicos p{
@@ -121,6 +137,7 @@
     border-radius: 10px;
     box-sizing: border-box;
     box-shadow: 1px 1px 2px black;
+    cursor: pointer;
 }
 
 #contato button:hover{
@@ -162,6 +179,7 @@
     border-radius: 50%;
     box-sizing: border-box;
     box-shadow: 1px 1px 2px black;
+    cursor: pointer;
 }
 
 #rodape button:hover{
