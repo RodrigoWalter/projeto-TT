@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>"Exemplo LTDA"</title>
+    <link rel="stylesheet" href="../style/style.css">
+</head>
+<body>
+    <div id="cabecalho">
+        <img src="../imagens/logo.png" alt="Exemplo">
+        <nav>
+            <ul class="menu">
+                <li><a href="#contato">CONTATO</a></li>
+                <li><a href="#servicos">SERVIÇOS</a></li>
+                <LI><a href="#sobre">SOBRE</a></LI>
+                <li><a href="#inicio">INÍCIO</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div id="inicio">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet ut fugit error nulla voluptates temporibus quasi dolorem deserunt cum voluptate obcaecati, totam cupiditate ipsam explicabo numquam molestiae hic nostrum! Fugit! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus soluta cumque, corporis debitis maiores similique illo non amet alias quae nemo vitae doloribus voluptatem illum asperiores tempora commodi perferendis aliquam.</p>
+    </div>
+    <div id="sobre">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, quaerat? Eos est ex, qui ea odit quos tempore atque. Expedita exercitationem voluptates perferendis laudantium porro impedit magni, est deleniti recusandae. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit nemo enim officia. Vitae ipsam molestias ea recusandae suscipit, aliquid repellat nihil illo natus magnam quas velit et blanditiis assumenda accusantium.</p>
+    </div>
+    <div id="servicos">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi similique tenetur repellat suscipit sunt officia consectetur aliquid eum adipisci eligendi, iste culpa. Fugit reiciendis molestiae numquam deserunt adipisci, omnis assumenda. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci rem repellat veniam numquam esse minima omnis molestias eos labore quisquam harum culpa optio quod consequuntur neque ab, beatae doloribus dignissimos.</p>
+    </div>
+    <div id="contato">
+        <h1>Fale conosco</h1>
+        <form action="../html/contato.html" method="post"> <!--Ainda falta fazer o backend do formulário de contatos-->
+            <div>
+                <label for="nome">Nome:</label>
+                <input type="texto" id="nome" name="nome_usuario">
+            </div>
+            <div>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email_usuario">
+            </div>
+            <div>
+                <label for="texto">Texto:</label>
+                <textarea id="texto" name="texto_usuario"></textarea>
+            </div>
+            <div class="botão">
+                <button type="submit">Enviar</button>
+            </div>
+        </form>
+    </div>
+    <div id="rodape">
+        <a href="https://www.facebook.com/" target="_blank" rel="external"><button class="b1"><img src="../imagens/image-facebook.jpg" alt="Facebook"></button></a>
+        <a href="https://www.instagram.com/" target="_blank" rel="external"><button class="b2"><img src="../imagens/image-instagram.png" alt="Instagram"></button></a>
+        <p class="p1">Nome da empresa: Exemplo LTDA <br> Endereço: Rua dos Coqueiros, 234, Recife-PE <br> Telefones: (81) 99999-0000 <br> Email:exemplo@gmail.com</p>
+        <p class="p2">Exemplo LTDA&reg;</p>
+    </div>
+    <div id="botao">
+        <a href="https://www.whatsapp.com/?lang=pt_br" target="_blank" rel="external"><button><img src="../imagens/image-whatsapp.webp" alt="Whatsapp"></button></a>
+    </div>
+</body>
+</html>
