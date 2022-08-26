@@ -1,3 +1,8 @@
+@media only screen and (max-device-width: 900px) {
+    .menu { width: 100%; }
+    .contato { width: 100%;}
+    }
+
 #cabecalho{
     background-image: linear-gradient(to bottom, rgb(194, 185, 185), rgb(128, 128, 180));
     position: fixed;
@@ -19,6 +24,7 @@
     float: right;
     margin-top: 15px;
     margin-right: 80px;
+    margin-bottom: 10px;
 }
 
 #cabecalho .menu{
